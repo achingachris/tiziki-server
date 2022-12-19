@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "music_genres",
+  "info": {
+    "singularName": "music-genre",
+    "pluralName": "music-genres",
+    "displayName": "Music Genre"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::artist.artist",
+      "inversedBy": "music_genres"
+    }
+  }
+}

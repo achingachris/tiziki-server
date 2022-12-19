@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artist_bookings",
+  "info": {
+    "singularName": "artist-booking",
+    "pluralName": "artist-bookings",
+    "displayName": "Artist Booking"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "booking_description": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist"
+    }
+  }
+}
