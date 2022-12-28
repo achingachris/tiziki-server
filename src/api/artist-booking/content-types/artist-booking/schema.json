@@ -4,10 +4,11 @@
   "info": {
     "singularName": "artist-booking",
     "pluralName": "artist-bookings",
-    "displayName": "Artist Booking"
+    "displayName": "Artist Booking",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

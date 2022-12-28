@@ -4,10 +4,11 @@
   "info": {
     "singularName": "music-genre",
     "pluralName": "music-genres",
-    "displayName": "Music Genre"
+    "displayName": "Music Genre",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

@@ -27,6 +27,13 @@
       "relation": "oneToMany",
       "target": "api::music-genre.music-genre",
       "mappedBy": "artist"
+    },
+    "artist_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
