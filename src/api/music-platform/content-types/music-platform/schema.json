@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "music_platforms",
+  "info": {
+    "singularName": "music-platform",
+    "pluralName": "music-platforms",
+    "displayName": "Music Platform"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
